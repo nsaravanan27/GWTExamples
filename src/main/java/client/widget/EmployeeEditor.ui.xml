@@ -1,0 +1,13 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <g:HTMLPanel>
+        <g:FlowPanel>
+            <g:Label>Name : </g:Label>
+            <g:TextBox ui:field="empName"></g:TextBox>
+        </g:FlowPanel>
+        <g:FlowPanel>
+            <g:Label>Designation : </g:Label>
+            <g:TextBox ui:field="empDesig"></g:TextBox>
+        </g:FlowPanel>
+    </g:HTMLPanel>
+</ui:UiBinder>

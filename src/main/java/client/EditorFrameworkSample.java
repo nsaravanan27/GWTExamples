@@ -1,5 +1,7 @@
 package client;
 
+import client.view.EmployeeView;
+import client.widget.EmployeeEditor;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.user.client.ui.*;
 
@@ -9,6 +11,6 @@ import com.google.gwt.user.client.ui.*;
 public class EditorFrameworkSample implements EntryPoint {
     public void onModuleLoad() {
         Label l = new Label("Hello");
-        RootPanel.get("lbl").add(l);
+        RootPanel.get("lbl").add(new EmployeeView());
     }
 }
