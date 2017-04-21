@@ -3,7 +3,8 @@
 <module>
 
     <inherits name='com.google.gwt.user.User'/>
-
+    <source path='client'/>
+    <source path='shared'/>
     <entry-point class='client.EditorFrameworkSample'/>
 
 </module>

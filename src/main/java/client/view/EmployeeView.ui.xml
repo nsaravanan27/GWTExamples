@@ -1,0 +1,14 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:c='urn:import:client.widget'>
+    <g:HTMLPanel>
+        <g:FlowPanel>
+            <c:EmployeeEditor ui:field="employeeEditor"></c:EmployeeEditor>
+        </g:FlowPanel>
+        <g:FlowPanel>
+            <g:Button ui:field="get" text="Get"></g:Button>
+            <g:Button ui:field="save" text="Save"></g:Button>
+            <g:Button ui:field="reset" text="Rest"></g:Button>
+        </g:FlowPanel>
+    </g:HTMLPanel>
+</ui:UiBinder>
